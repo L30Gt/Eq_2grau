@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Equação do 2º grau</title>         
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="logotipo">MATHMAGIC</h1>
+          </header>
+          
+
+        <main>
+            <div>
+                
+             <div class="border"> 
+                <h1>Equação do 2º grau</h1>
+                <div class="conteudo">
+                    <label for="valorA"></label>
+                    <input type="number" id="valorA" class="input-custom" placeholder="a">
+                    <span class="operation">&nbspx² +&nbsp</span>
+                    <label for="valorB"></label>
+                    <input type="number" id="valorB" class="input-custom" placeholder="b">
+                    <span class="operation">&nbspx +&nbsp</span>
+                    <label for="valorC"></label>
+                    <input type="number" id="valorC" class="input-custom" placeholder="c">
+                    <span class="operation">&nbsp = 0&nbsp</span>
+                  </div> 
+                  <div class="botao">
+                    <a href="#" class="calcular-button" onclick="calcularEquacao2grau()">
+                      <img src="img/calcular.svg" alt="Calcular" width="102" height="48">
+                    </a>
+                    <a href="#" class="limpar-button" onclick="limparInputs()">
+                      <img src="img/limpar.svg" alt="Limpar" width="102" height="48">
+                    </a>
+                  </div>
+                  
+                  
+                    <div class="result">
+                    <p id="resultado"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <script src="js/script.js"></script>
+
+    </body>
+
+</html>
+
